@@ -1,0 +1,58 @@
+*{
+    margin:0px;
+    padding:0px ;
+}
+body{
+    background-color: #2b5556; 
+}
+.row{
+    gap: 1rem;
+    border:0.5px solid aliceblue;
+    border-radius: 0.5rem;
+    display: grid;
+    justify-content: center;
+    grid-template-columns:repeat(auto-fit, minmax(15rem, 1fr));
+    overflow:hidden ;
+    box-shadow: 3px 3px 10px 0px rgb(22, 11, 11);
+     
+}
+.card{
+    margin: 10px;
+    background:linear-gradient(to right,rgb(205, 199, 168),hsl(60, 11%, 32%)) ;   
+    width: 15rem;
+    padding: 0px;
+}
+#flag{
+    width:13rem;
+    height: 8rem;
+}
+#title{
+    color: white;
+    background-color: black;
+    width:100%;
+    font-size: larger;
+    padding: 0.5rem;
+}
+.card-body{
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    color:white;
+    font-weight:bold;
+    font-size: medium;
+
+}
+p{
+    padding: 0px;
+    margin: 0px;
+   
+}
+#btn{
+    margin: 5px;
+    color:white;
+    font-weight:bold;
+    font-size: medium;
+    background:linear-gradient(to right,rgb(205, 199, 168),hsl(60, 11%, 32%)) ;
+    padding: 5px;
+    border:1px solid wheat;
+}
