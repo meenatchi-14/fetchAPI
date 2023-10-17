@@ -5,17 +5,17 @@
 body{
     background-color: #2b5556; 
 }
-.row{
+.container{
+    grid-template-columns:repeat(auto-fit, minmax(15rem, 1fr));
     gap: 1rem;
-    border:0.5px solid aliceblue;
+    grid-template-columns:repeat(auto-fit, minmax(15rem, 1fr));
     border-radius: 0.5rem;
     display: grid;
     justify-content: center;
-    grid-template-columns:repeat(auto-fit, minmax(15rem, 1fr));
     overflow:hidden ;
     box-shadow: 3px 3px 10px 0px rgb(22, 11, 11);
-     
 }
+
 .card{
     margin: 10px;
     background:linear-gradient(to right,rgb(205, 199, 168),hsl(60, 11%, 32%)) ;   
