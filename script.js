@@ -30,7 +30,7 @@ async function getWeather(latlng) {
     console.log("error : ", err);
   }
 }
- 
+ //create Cards
 function createCountryCard(element) {
   const divCreate = document.createElement("div");
   divCreate.className = "row";
@@ -53,9 +53,9 @@ function createCountryCard(element) {
   `;
   mainDiv.appendChild(divCreate);
  
+  // Button click event 
   const weatherButton = divCreate.querySelector("#btn");
   const weatherDisplay = divCreate.querySelector(".weather-display");
-
   weatherButton.addEventListener("click", async () => {
     const weatherData = await getWeather(element.latlng);
     console.log("Weather data:", weatherData);
