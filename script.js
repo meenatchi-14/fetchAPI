@@ -7,6 +7,7 @@ fetch("https://restcountries.com/v3.1/all")
   .then((response) => response.json())
   .then((data) => {
     console.log(data);
+    
     data.forEach((element) => {
       const countryObject = {
         name: element.name.common,
