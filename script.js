@@ -61,8 +61,8 @@ function createCountryCard(element) {
     console.log("Weather data:", weatherData);
 if (weatherData) {
       const weatherInfo = `
-        <p><span class="weather">Temperature:</span> ${weatherData.main.temp}°C</p>
-        <p><span class="weather">Weather:</span> ${weatherData.weather[0].description}</p>
+        <p><span class="card-text">Temperature:</span> ${weatherData.main.temp}°C</p>
+        <p><span class="card-text">Weather:</span> ${weatherData.weather[0].description}</p>
       `;
       weatherDisplay.innerHTML = weatherInfo;
       weatherDisplay.style.display = "block";
