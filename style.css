@@ -6,7 +6,6 @@ body{
     background-color: #2b5556; 
 }
 .container{
-    grid-template-columns:repeat(auto-fit, minmax(15rem, 1fr));
     gap: 1rem;
     grid-template-columns:repeat(auto-fit, minmax(15rem, 1fr));
     border-radius: 0.5rem;

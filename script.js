@@ -25,7 +25,7 @@ async function getWeather(latlng) {
     let weatherApi = `https://api.openweathermap.org/data/2.5/weather?lat=${latlng[0]}&lon=${latlng[1]}&appid=${apiKey}`;
     let weatherObj = await fetch(weatherApi);
     let response = await weatherObj.json();
-    return response;
+   console.log(response);
   } catch (err) {
     console.log("error : ", err);
   }
